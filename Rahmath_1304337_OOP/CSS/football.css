@@ -1,0 +1,28 @@
+
+a:link, a:visited {background-color: blue;
+color: yellow;
+border: 3px solid black;
+padding: 10px 20px;
+margin: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}​​
+a:hover, a:active {background-color: black;
+color: red;}​​
+
+
+
+img {
+	border: 5px solid #555;
+}
+/* 
+legend {
+	text-align: center;
+}
+
+form{
+	text-align: center;
+} */
+
+

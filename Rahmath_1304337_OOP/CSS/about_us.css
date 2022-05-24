@@ -1,0 +1,22 @@
+body{
+    background-color:aquamarine;
+}
+
+a:link, a:visited {background-color: blue;
+    color: yellow;
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+section{
+    display: contents;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}

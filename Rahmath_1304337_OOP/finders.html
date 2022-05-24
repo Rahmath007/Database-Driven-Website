@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <title>Superhero Shop - Find a Superhero!</title>
+	<link rel="stylesheet" href="CSS/football.css" />
+    
+</head>
+<body>
+<!-- Skip link  -->
+<a  href="#min_price">Skip to main content</a>
+
+
+<nav>
+		<a href="index.php">Homepage</a>
+		
+	</nav><br>
+	
+	<form id = "footballForm">
+	  <fieldset>
+		<legend>Enter the price and brand for your item</legend>
+		<label for = "min_price">Minimum price </label>
+		<input type="number" id="min_price" name="min_price" min ="1" max = "100">
+		
+		<label for = "max_price">Maximum price</label>
+		<input type="number" id="max_price" name="max_price" min ="1" max = "100">
+		
+	  </fieldset>
+	  
+	  <fieldset>
+		<label for = "colour">colour</label>
+		<select name="colour" id = "colour">
+		  <option value="Blue">Blue</option>
+		  <option value="Red">Red</option>
+		  <option value="Green">Green</option>
+		</select>
+      
+		
+      </fieldset>
+	  
+	  <fieldset>
+	  <input type="button" value="Find the item" id ="find_Btn" />
+
+      </fieldset>	
+	</form>
+	
+	
+	<script src = "JavaScript/Finder.js"></script>
+</body>
+</html>

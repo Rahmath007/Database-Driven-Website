@@ -1,0 +1,7 @@
+body{
+    background-image: linear-gradient(rgb(24, 90, 24), yellow);
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20%;
+}
